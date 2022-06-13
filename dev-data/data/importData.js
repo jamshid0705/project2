@@ -20,7 +20,7 @@ const addInfo = async () => {
     console.log('All files already added');
   } catch (err) {
     console.log(err);
-  }
+  };
 };
 
 const deleteData = async () => {
