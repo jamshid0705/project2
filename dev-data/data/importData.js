@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const Tour = require('../../model/tourModel.js');
 const User = require('../../model/userModel.js');
 
-mongoose.connect('mongodb+srv://mamur7191:mamur7191@cluster0.xnk6v.mongodb.net/TOURALL?retryWrites=true&w=majority',{} )
+mongoose.connect('mongodb+srv://jamshid:07052000@cluster0.qqdm3.mongodb.net/nodeData?retryWrites=true&w=majority',{} )
   .then(() => console.log('DB connected'))
   .catch((err) => {
     console.log(err);
